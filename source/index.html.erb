@@ -11,11 +11,11 @@ title: Le Wagon Middleman boilerplate
       Welcome to my personal portfolio website
     </p>
   </div>
+
 </div>
 <!--banner end-->
-<br/>
 <!-- projects -->
-<div class="projects text-center">
+<div id="projects" class="projects text-center">
   <h2> Projects and personal work </h2>
   <h3> artwork | print | web | design </h3>
   <br/>
@@ -23,12 +23,13 @@ title: Le Wagon Middleman boilerplate
     <div class="container">
       <div class="row">
         <div class="cards_wrapper">
-        <div class="col-xs-12 col-lg-4">
+          <div class="hidden-xs hidden-sm hidden-md col-lg-4">
             <div class="card_wrapper">
               <div class="card-side1">
                 <div class="card-hover">
                   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
+                  <i class="fa fa-expand"> </i>
                 </div>
               </div>
             </div>
@@ -37,32 +38,109 @@ title: Le Wagon Middleman boilerplate
             <div class="card_wrapper">
               <div class="card-middle-1">
                 <div class="card-hover">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
+
+                  <i class="fa fa-expand"> </i>
                 </div">
               </div>
               <div class="card-middle-2">
                 <div class="card-hover">
                   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   </p>
+                  <i class="fa fa-expand"> </i>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-lg-4">
+        <div class="hidden-xs hidden-sm hidden-md col-lg-4">
           <div class="card_wrapper">
             <div class="card-side">
               <div class="card-hover">
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
+                <i class="fa fa-expand"> </i>
               </div>
             </div>
           </div>
+        </div>
+        <a class="btn-custom"> view complete portfolio </a>
+      </div>
+    </div>
+  </div>
+  <!-- <i class="fa fa-chevron-down"> </i> -->
+  <%= partial "arrows" %>
+</div>
+
+
+<!-- end projects -->
+<!-- begin about me graphic design (gd) -->
+
+<div  id="aboutme" class="wrapper-gd">
+  <div class="gd-container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="gd-visual">
+          <i class="fa fa-strikethrough"></i>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="gd">
+          <br>
+          <h1>Graphic Design</h1>
+          <p>I have a huge passion for design. Over the past couple years I've developed a good overall knowledge to use the tools needed to create anything I want. <br> >_ check my <a href="https://www.behance.net/Sdbest" class="fa fa-behance" target="blank"></a></p>
+
         </div>
       </div>
     </div>
   </div>
 </div>
 </div>
-<!-- end projects -->
+<!-- end about me (gd) -->
+
+<div class="wrapper-code">
+  <div class="container-code">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="code-visual">
+          <div class="code-txt">
+            <h1>Code</h1>
+            <p> I come with skills! <br>
+              HTML5 <i data-toggle="tooltip" title="HTML5" class="fa fa-html5"></i>  <br>
+              CSS3 <i data-toggle="tootltip" title="CSS3" class="fa fa-css3"></i>  <br>
+              Ruby / Ruby on rails <i data-toggle="tooltip" title="Ruby / Ruby On Rails" class="fa fa-diamond"></i>  <br>
+              Terminal <i data-toggle="tootltip" title="terminal" class="fa fa-terminal"></i> <br>
+              SQL / PostgreSQL <i data-toggle="tooltip" title="SQL / PostgreSQL" class="fa fa-database"></i>  <br>
+              Javascript <i data-toggle="tooltip" title="Javascript" class="fa fa-coffee"></i>  <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="code">
+          <i class="fa fa-code"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+      <a class="fa fa-phone"></a> +316 29221862 |
+      <a href="mailto:simone.1994@hotmail.com?Subject=Hello%20again" class="fa fa-paper-plane"></a> simone.1994@hotmail.com
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="footer-attr">
+          <a href="https://github.com/simonedebest" target="blank" class="fa fa-github"> </a>
+          <a href="https://www.facebook.com/simone.debest.5" target="blank"  class="fa fa-facebook"> </a>
+          <a href="https://www.linkedin.com/in/simone-de-best-8a215811b?" target="blank"  class="fa fa-linkedin"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
